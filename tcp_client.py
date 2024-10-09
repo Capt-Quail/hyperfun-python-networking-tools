@@ -11,7 +11,7 @@ client.connect((target_host, target_port))
 # Send data
 client.send(b'SYN')
 
-# Receive some data
+# Receive data
 response = client.recv(4096)
 
 print(response.decode())

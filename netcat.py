@@ -96,9 +96,10 @@ class NetCat:
                     self.socket.close()
                     sys.exit()
 
+# Heart of the prohra,
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description='BHP Net Tool',
+        description='DR@GON Net Tool',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=textwrap.dedent('''Example:
             netcat.py -t 192.168.1.108 -p 5555 -l -c # command shell

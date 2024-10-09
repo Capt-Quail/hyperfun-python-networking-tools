@@ -1,6 +1,6 @@
 import socket
 
-target_address = "127.0.0.1"
+target_address = "0.0.0.1"
 target_port = 9997
 
 # Use of datagrgram socket object
